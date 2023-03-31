@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .sidebar {
     height: 100%;
     width: 190px;
@@ -39,6 +43,15 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.grey-section {
+    background-color: rgb(243, 243, 243);
+}
+#projects-header {
+    color: rgb(122, 114, 114);
+}
+button {
+    margin: 1em;
+}
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
 @media screen and (max-height: 450px) {
     .sidebar {
@@ -50,9 +63,3 @@ h1, h2, h3 {
     }
 }
 
-.grey-section {
-    background-color: rgb(243, 243, 243);
-}
-#projects-header {
-    color: rgb(122, 114, 114);
-}
